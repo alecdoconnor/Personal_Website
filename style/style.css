@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #FFF;
+	background-color: #0F3C50;
+	font-family: 'lato', sans-serif;
+}
+.navbar {
+	border-radius:0;
+	margin:0;
+}
+.section {
+	margin:0;
+	text-align: center;
+	padding: 15px 10px;
+}
+.section .section-content {
+	text-align: center;
+	margin: auto;
+	max-width: 1000px;
+	width: 100%;
+	padding: 15px 10px;
+}
+.sec1 {
+	backgrounddd: url("https://safecode.tech/images/bg1.svg"); 
+
+	backgrounddd: url("https://safecode.tech/images/bg1.jpg") no-repeat center center; 
+	background: linear-gradient(#46B4B4, #2882AA);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.flatButtonContainer {
+	margin: auto; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.flatButton {
+	height: 50px;
+	width: 150px;
+	color: #fff;
+	border: solid #fff 3px; 
+	background-color:transparent;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+.social {
+	height: 30px;
+	margin-top: 45px;
+}
+.social img {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.social img:hover {
+	
+}
+.sec2 {
+	background-color: #FFF;
+	color: #055476;
+}
+.sec3 {
+	background-color: #FF5A33;
+	color: #FFF;
+}
+.sec3 ul {
+	padding-left: 0;
+}
+.sec3 .cs {
+	color: #2883aa;
+	width: 100%;
+	margin: 10px, 0;
+	background-color: #FFF;
+	padding: 10px;
+	border-radius: 4px;
+}
+.sec3 .ie {
+	color: #2883aa;
+	width: 100%;
+	margin-top: 20px;
+	background-color: #FFF;
+	padding: 10px;
+	border-radius: 4px;
+}
+.sec4 {
+	background-color: #FFC533;
+	color: #2883aa;
+}
+.sec5 {
+	background-color: #FFF;
+	color: #055476;
+}
+.sec6 {
+	background-color: #FFF;
+	color: #055476;
+	display: none;
+}
+
+
+h1, h2 {
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+.emphasis {
+		font-size: 3em;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: normal;
+}
+.hline {
+	height: 0;
+	width: 200px;
+	margin: 2.5em auto;
+	border: solid #fff 1px;
+}
+.hline .light {
+	border-bottom: none;
+	margin: 10px;
+}
+h3 {
+	margin: auto;
+}
+footer {
+	background-color: #0F3C50;
+	height: 200px;
+}
+footer a {
+	color: #FFF;
+	font-style: italic;
+}
+footer p {
+	text-align: center;
+	color: #FFF;
+	margin: auto;
+	max-width: 1000px;
+	width: 90%;
+	padding: 5px, 10px;
+}
