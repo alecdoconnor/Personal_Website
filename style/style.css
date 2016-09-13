@@ -107,9 +107,9 @@ h1, h2 {
 	font-weight: bold;
 }
 .emphasis {
-		font-size: 3em;
-		font-family: 'Quicksand', sans-serif;
-		font-weight: normal;
+	font-size: 3em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
 }
 .hline {
 	height: 0;
@@ -121,8 +121,68 @@ h1, h2 {
 	border-bottom: none;
 	margin: 10px;
 }
+	.sec2 .hline .light {
+		border-color: #055476;
+	}
+	.sec4 .hline .light {
+		border-color: #2883aa;
+	}
+	.sec5 .hline .light {
+		border-color: #055476;
+	}
+	.sec6 .hline .light {
+		border-color: #055476;
+	}
 h3 {
 	margin: auto;
+}
+#funfact {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.funfact {
+	display:block;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	margin:15px;
+}
+.funfact .ffimage {
+	width: 200px;
+	height: 160px;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+.funfact .ffdetail {
+	width: 200px;
+	height: 40px;
+	margin: auto;
+	padding: auto;
+	background-color: #fff;
+	//text-align: center;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.funfact .ffdetail div {
+}
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .funfact {
+    width: 130px;
+    height: 130px;
+  }
+  .funfact .ffimage {
+	width: 130px;
+	height: 90px;
+  }
+  .funfact .ffdetail {
+	width: 130px;
+	height: 40px;
+  }
 }
 footer {
 	background-color: #0F3C50;

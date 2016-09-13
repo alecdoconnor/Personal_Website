@@ -44,7 +44,17 @@
 		</script>
 		
 	</head>
-	<body>		
+	<body>	
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78245580-1', 'auto');
+  ga('send', 'pageview');
+
+</script>	
 		<nav class="navbar navbar-default" style="position:fixed; top:0; right:0; left:0;" id="myNav">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -79,10 +89,10 @@
             	<div style="height:100px;" ><!--Used as filler for menu bar location--></div>
 				<h1 class="emphasis section-content">REINVENTING MOBILE<br />ELEGANCE</h1>
 				<div class="hline"></div>
-				<h4 class="section-content">We build mobile software with one main goal: to define and create solutions to the not-so-obvious issues.</h4>
+				<h4 class="section-content">Building mobile software with one main goal: to define and create solutions to the not-so-obvious issues.</h4>
 				<div class="flatButtonContainer">
                 	<form action="mailto:alec@alecoconnor.com">
-                	<button type="submit" class="flatButton">Contact Us</button>
+                	<button type="submit" class="flatButton">Contact Me</button>
                 	</form>
                 	<div class="social">
                 		<a href="https://www.linkedin.com/in/alecdoconnor"><img src="images/iconmonstr/linkedin.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
@@ -133,9 +143,9 @@
 						<?php
 						listItem("Website Development",5);
 						listItem("HTML/CSS",5);
-						listItem("PHP",5);
-						listItem("MySQL",5);
-						listItem("JavaScript",4);
+						listItem("PHP/MySQL",5);
+						listItem("Javascript",5);
+						listItem("Custom API Creation",4);
 						?>
 					</ul>
 				</div>
@@ -147,7 +157,7 @@
 						</li>
 						<?php
 						listItem("Server Management",5);
-						listItem("Custom API Creation",5);
+						listItem("Git",5);
 						listItem("UNIX/Mac/Windows<br />Environments",5);
 						listItem("Command-line Control",5);
 						listItem("Networks",5);
@@ -211,6 +221,40 @@
 			<section class="container section-content">
 				<h2>Fun Facts</h2>
 				<div class="hline light"></div>
+				<div id="funfact">
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+					<div class="funfact">
+						<div class="ffimage"></div>
+						<div class="ffdetail"><div>FunFact</div></div>
+					</div>
+				</div>
 				<h4>rubik&#039;s cube, 90wpm, 3d printer and laser cutter, engineer who can speak and write</h4>
 			</section>
 		</div>
@@ -236,9 +280,9 @@
 			<p>Copyright &copy; <?php echo Date("Y"); ?> Alec O&#039;Connor</p>
 			<p><a href="mailto:alec@alecoconnor.com?subject=Website%20Contact%20Form">Alec@Alecoconnor.com</a></p>
                <div class="social" style="margin:10px;">
-                <a href="https://www.linkedin.com/in/alecdoconnor"><img src="/images/iconmonstr/linkedin.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
-                <a href="https://instagram.com/alecdoconnor"><img src="/images/iconmonstr/instagram.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
-                <a href="https://github.com/alecdoconnor"><img src="/images/iconmonstr/github.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
+                <a href="https://www.linkedin.com/in/alecdoconnor"><img src="images/iconmonstr/linkedin.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
+                <a href="https://instagram.com/alecdoconnor"><img src="images/iconmonstr/instagram.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
+                <a href="https://github.com/alecdoconnor"><img src="images/iconmonstr/github.PNG" onload="fadeIns(this)" style="opacity:0;" /></a>
                </div>
 			</section>
 		</footer>
